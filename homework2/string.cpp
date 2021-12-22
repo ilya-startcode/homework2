@@ -2,6 +2,12 @@
 #include "cstring"
 
 BMSTU::string::string() {
+    ///
+    /*  Логика поведения пустой строки должна быть такая
+        _str_ptr = new char[1];
+        _str_ptr[0] = 0;
+        _size_str = 0;
+    */
     _str_ptr = nullptr;
     _size_str = 0;
 }
