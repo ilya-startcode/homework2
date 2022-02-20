@@ -10,7 +10,7 @@ TEST(StringTest, default_constructor) {
 TEST(StringTest, size_constructor) {
     BMSTU::string str(5);
     ASSERT_EQ(str.size(), 5);
-    ASSERT_STREQ(str.c_str(), "     ");
+    ASSERT_STREQ(str.c_str(), "");
 }
 TEST(StringTest, c_str_constructor) {
     BMSTU::string str("qwe rty");
