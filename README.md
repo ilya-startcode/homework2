@@ -1,5 +1,5 @@
-# cmake-example-repo
+# homework2
 
 | **CI Service** | Build Status |
 |:---------------|-------------:|
-| GitHub Actions | [![Build Status (GitHub Actions)](https://github.com/ilya-startcode/homework2/actions/workflows/ci-cmake_tests.yml/badge.svg)](https://github.com/ilya-startcode/homework2/workflows/ci-cmake_tests.yml) |
+| GitHub Actions | [![Build Status (GitHub Actions)](https://github.com/ilya-startcode/homework2/actions/workflows/example-tests.yml/badge.svg)](https://github.com/ilya-startcode/homework2/workflows/example-tests.yml) |
