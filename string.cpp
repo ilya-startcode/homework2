@@ -1,4 +1,4 @@
-#include "../string.hpp"
+#include "string.hpp"
 #include "cstring"
 
 BMSTU::string::string() {
