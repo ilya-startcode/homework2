@@ -62,7 +62,7 @@ TEST(StringTest, concat_operator){
     BMSTU::string str2 = "b";
     BMSTU::string str3 = "Ilia Stratienko";
     BMSTU::string str4 = str1 + str2 + str3;
-    ASSERT_STREQ(str4.c_str(), "abIlia Stratienko";
+    ASSERT_STREQ(str4.c_str(), "abIlia Stratienko");
 }
 /// Добавте что-то, что позволить смотреть тестирование и сборку прямо в браузере
 /// Добавте GitHub Actions (CI)
