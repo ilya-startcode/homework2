@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include "iostream"
-#include "include/string.hpp"
+#include "string.hpp"
 
 TEST(StringTest, default_constructor) {
     BMSTU::string str;
