@@ -56,3 +56,6 @@ TEST(StringTest, swap) {
     ASSERT_EQ(str_2.size(), 6);
     ASSERT_STREQ(str_2.c_str(), "qwerty");
 }
+/// Добавте что-то, что позволить смотреть тестирование и сборку прямо в браузере
+/// Добавте GitHub Actions (CI)
+/// Структуру проекта уже поправил немного
