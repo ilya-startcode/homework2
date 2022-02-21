@@ -2,8 +2,7 @@
 
 | **CI Service** | Build Status |
 |:---------------|-------------:|
-| GitHub Actions | [![Build Status (GitHub Actions)](https://github.com/ilya-startcode/homework2/blob/main/.github/workflows/example-tests.yml)]https://github.com/ilya-startcode/homework2/blob/main/.github/workflows/example-tests.yml |
-
+| GitHub Actions | [![Build Status (GitHub Actions)](https://github.com/vanyabeat/cmake-example-repo/actions/workflows/ci-cmake_tests.yml/badge.svg)]https://github.com/ilya-startcode/homework2/actions|
 Примеры гуглтестов [Google Test](https://code.google.com/p/googletest)
 
 ## Сборка
