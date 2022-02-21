@@ -11,12 +11,12 @@ FetchContent_MakeAvailable(googletest)
 
 set(CMAKE_CXX_STANDARD 14)
 set(TEST_NAME ${PROJECT_NAME}_tests)
-add_executable(${TEST_NAME} example_test.cpp include/string.hpp  src/string.cpp)
+add_executable(${TEST_NAME} example_test.cpp string.hpp  string.cpp)
 target_link_libraries(${TEST_NAME} gtest_main)
 
 enable_testing()
 include(GoogleTest)
 gtest_discover_tests(${TEST_NAME})
 
-add_executable(DZ main.cpp include/string.hpp  src/string.cpp)
+add_executable(DZ string.hpp string.cpp)
 target_link_libraries(DZ)
